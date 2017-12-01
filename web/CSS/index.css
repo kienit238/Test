@@ -1,0 +1,956 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2017, 7:48:57 PM
+    Author     : Computer
+*/
+
+
+/* CSS Document */
+
+#page{
+    width: 100%;
+    margin: 0px;
+    background-image:none;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    /*border: 1px solid;*/
+}
+/*HEADER-TOP*/	
+
+#page #headertop{
+    width:100%;
+    height:28px;
+    background-color:#f8f8f8;
+    position:relative;
+    /*border: 1px solid;*/
+}
+#page #headertop #khung{
+    width:1200px; 
+    margin:auto;
+    position:relative; 
+    /*border: 1px solid;*/ 
+    height: 28px;
+}
+#page #headertop #khung #textheader{
+    text-shadow:0px 0px 0px 2px #000;
+    line-height:28px;
+    color:#ababab;
+    margin-left:16px;
+    font-size:14px;
+    float:left;
+
+}	
+#page #headertop #khung #dangnhap {
+    line-height:28px;
+    text-decoration:none;
+    list-style-type:none;
+ 
+    margin-left:500px;
+    float:left;
+    color:#ababab;
+    
+}
+      
+#page #headertop #khung #dangky{
+    line-height:28px;
+    text-decoration:none;
+    list-style-type:none;
+    float:left;
+    color:#ababab;
+    padding-left:24px;
+    
+}
+#page #headertop #khung #giohang {
+    line-height:28px;
+    text-decoration:none;
+    list-style-type:none;
+    /*border: 1px solid;*/
+    margin-left:20px;
+    float:left;
+    color:#ababab;
+}
+
+#page #headertop #khung #dangky:hover{
+    color:#000;
+}
+	
+
+#page #headertop #khung #dangnhap:hover{
+    color:#000;
+}
+#page #headertop #khung #giohang:hover{
+    color:#000;
+}
+/**********************************/
+/*Slide Show*/
+/* Slideshow container */
+/** {box-sizing:border-box}*/
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: 450px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+/*----------*/
+/*HEADER*/
+#page #header{
+    width:1200px;
+    height:120px;
+    margin:0 auto;
+    position:relative;
+    background-color:rgb(255,255,255);
+
+
+}	
+#page #header #banner{
+    width:100%;
+    height:120px;
+    background-color:#FFF;
+    position:relative;
+}	
+
+#page #header #banner #boxbanner{
+    width:168px;
+    height:40px;
+
+    position:absolute;
+    top:30px;
+    left:600px;
+}	
+#page #header #banner #boxbanner #clock{
+    width:30px;
+    height:30px;
+    background-image:url(../Images/icon_Logo/icon-time.png);
+    background-repeat:no-repeat;
+    margin-top:5px;
+    margin-left:5px;
+    float:left;
+    margin-right:6px;
+}	
+#page #header #banner #boxbanner #text1{
+    font-size:14px;
+    font-weight:bold;
+    line-height:40px;
+
+}	
+#page #header #banner #boxbanner1{
+    width:192px;
+    height:24px;
+
+    position:absolute;
+    top:30px;
+    left:794px;
+}	
+#page #header #banner #boxbanner1 #icon1{
+    width:19px;
+    height:19px;
+    background-image:url(../Images/icon_Logo/PhoneIcon.png);
+    background-repeat:no-repeat;
+    margin-top:2px;
+    margin-right:10px;
+    float:left;
+}	
+#page #header #banner #boxbanner1 #texticon1{
+    font-size:16px;
+    font-weight:bold;
+    padding-top:2px;
+}	
+span{
+    color:#ff4f00;
+    font-size:16px;
+}	
+#page #header #banner #boxbanner2{
+    width:380px;
+    height:24px;
+
+    position:absolute;
+    top:60px;
+    left:794px;
+}	
+#page #header #banner #boxbanner2 #icon2{
+    width:19px;
+    height:19px;
+    background-image: url(../Images/icon_Logo/1475701278_seo-social-web-network-internet_211.png);
+    background-repeat:no-repeat;
+    margin-left:1px;
+    margin-top:4px;
+    margin-right:10px;
+    float:left;
+}	
+#page #header #banner #boxbanner2 #texticon2{
+    font-size:16px;
+    font-weight:bold;
+    padding-top:8px;
+
+}		
+#page #header #banner #logo{
+    background-image:url(../Images/icon_Logo/logo.png);
+    width:124px;
+    height:89px;
+    position:absolute;
+    top:15px;
+    bottom:16px;
+    left:16px;
+    float: left;
+}
+/*---------------------------------*/
+
+/*--------BOTTOM------------*/	
+#page .trongnuoc{
+    width:100%;
+    height:30px;
+    background-color:#f8f8f8;
+    position:relative;
+    line-height:30px;
+
+}
+#page .trongnuoc a{
+    text-decoration:none;
+}
+/*--------------------------------*/	
+
+/*--------MENU----------*/	
+#page #menu{
+    width:100%;
+    height:51px;
+    background-color:rgba(48,92,183,1);
+    background-repeat:no-repeat;
+
+}
+#page #menu #boxmenu{
+    width:1200px;
+
+    position:relative;
+    margin: 0 auto;
+}	
+#page #menu #boxmenu  ul li a{
+    text-decoration:none;
+    color:#FFF;
+
+}
+#page #menu #boxmenu  .a1{
+
+    height:46px;	
+    position:relative;
+    padding-left:30px;
+    padding-right:30px;
+
+    float:left;
+    font-size:18px;
+    line-height:49px;
+    margin-top:4px;
+    /*border:1px solid #305cb7;*/
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+
+
+}
+
+#page #menu #boxmenu  ul li .a1:hover{
+    background-color:#fff301;
+
+}
+#page #menu #boxmenu  ul li a:hover{
+    color:#000;
+}
+
+#page #menu #boxmenu  #home{
+    height:46px;
+    width:48px;
+    background-color:#fff301;
+    float:left;
+    margin-top:4px;
+
+    /*border:0px solid #305cb7;*/
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+}
+
+
+#page #menu #boxmenu  #home #img1{
+    padding: 12px 11px 12px 11px;
+
+}	
+/*-------------------------------*/
+
+/*--------CONTENT-TRANG CHỦ-----------*/	
+#page #content{
+    width:1200px;
+    min-height:400px;
+    background-color:rgba(255,255,255,0.8);
+    position:relative;
+    margin:0 auto;
+
+}	
+#page #content .box1{
+    width:934px;
+    height:83px;
+    background-image:url(../Images/icon_Logo/bg-tour-yeu-thich.jpg);
+    background-repeat:no-repeat;
+    top:0px;
+    left:133px;
+
+    margin-bottom:20px;
+    top:10px;
+    line-height:83px;
+    font-weight:600;
+    color:#305CB7;
+    font-size:24px;
+    text-transform:uppercase;
+    text-align:center;
+    position:relative ;
+    box-sizing:border-box;
+}	
+/*#page #content .box3{
+        width:1200px;
+        height:280px;
+        position:relative;
+        margin-bottom:20px;
+        border:1px solid #F00;
+        }---- bỏ----*/ 
+#page #content .boxleft{
+    width:370px;
+    height:274px;
+
+    margin-left:14px;
+    margin-right:13px;
+    margin-bottom: 25px;
+    box-sizing:border-box;
+    position:relative;   
+    border-top-right-radius:6px;
+    -moz-border-top-right-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    border: 1px solid #e3e3e3;
+    box-shadow:0px 0px 7px #666666;
+    background-image:none;
+    float:left;
+
+}
+#page #content .boxleft .img2{
+    width:121px;
+    height:39px;
+    position:absolute;
+    z-index:1;
+    top:0px;
+    left:-10px;
+    line-height: 46px;
+    background-image:url(../Images/icon_Logo/tour-new.png);
+    background-repeat:no-repeat;
+    padding-left: 10px;
+    font-size:16px;
+    color:#FFF;
+    box-sizing:border-box;
+    text-transform:uppercase;
+}	
+
+#page #content .boxleft .boxinleft{
+    width:370px;
+    height:86px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position:absolute;
+    bottom:0px;
+    transition: height 0.4s;
+    -moz-transition: height 0.4s;
+    -webkit-transition: height 0.4s;
+
+    color:#FFFFFF;
+    text-decoration:none;
+    box-sizing:border-box;
+    padding: 10px 10px 10px 10px;
+    line-height:25px;
+    overflow:hidden; 
+}	
+
+
+#page #content .boxleft a:hover{
+    height:160px;
+    color:#fff301;
+
+}
+/*--------Ẩn 1 phần đoạn văn bản quá dài---------*/
+#page #content .boxleft .boxinleft .overflow{
+    overflow:hidden;
+    font-weight:600;
+    width:370px;
+    height:24px;
+    box-sizing:border-box;
+    padding-right:8px;
+}	
+/*-----------------------------*/	
+
+.clear{
+    clear:both;
+}	
+.float{
+    float:left;
+}	
+
+.bogachduoi{
+    text-decoration:none;
+    color:#666;
+}
+/*--------CONTENT-KHÁCH SẠN---------*/		
+
+/*------------LEFT-KHÁCH SẠN------------------*/	
+#page #content #leftks{
+    width:880px;
+    min-height:800px;
+    float:left;
+}	
+
+#page #content #leftks #boxvien1{
+    width:100%;
+    height: 50px;
+    line-height:50px;
+    border-top:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+    margin-top:20px;
+
+    color:#305cb7;
+    text-transform:uppercase;
+    font-weight:600;
+}
+#page #content #leftks .boxvien2{
+    width: 408px;
+    height:128px;
+    border:1px solid #eaeaea;
+    margin: 20px 15px 20px 15px;
+
+    padding: 12px 0px 0px 12px;
+    box-sizing:border-box;
+    float:left;
+}
+
+#page #content #leftks .boxvien2 .boximg2{
+    width: 100px;
+    height: 75px;
+    margin-right: 12px;
+    float:left;
+}	
+#page #content #leftks .boxvien2 a:hover{
+    background-color:#000;
+
+}
+#page #content #leftks .boxvien2 .boxvien3{
+    width:280px;
+    height:75px;
+    float:left;
+}	
+#page #content #leftks .boxvien2 .boxvien3 .textcolor1{
+    color:#305cb7;
+    font-size:14px;
+    font-weight:600;
+    text-decoration:none;
+}	
+#page #content #leftks .boxvien2 .boxvien3 a:hover{
+    background-color:transparent;
+    color:#000;
+}	
+#page #content #leftks .boxvien2 .boxvien3 .textcolor2{
+    color:#666666;
+    font-size:14px;
+    padding-top: 14px;
+}	
+#page #content #leftks .boxvien2:hover{
+    background-color:#f5f5f5;
+}	
+/*---------------------------------------*/
+/*---------------RIGHT-XÀI CHUNG CHO PAGE KHÁCH SẠN,TRONG NƯỚC, QUỐC TẾ------------------*/	
+#page #content #right{
+    width:320px;
+    min-height:800px;
+    float:left;
+}		
+#page #content #right #boxright{
+    margin: 20px 0px 0px 30px;
+}	
+/*--------------------------------------------------------------------------------------*/	
+/*--------------RIGHT-CONTENT KHÁCH SẠN---------------------------*/
+#content #right #boxright .boxrightimg{
+    width:72px;
+    height:56px;
+    margin-bottom: 20px;
+    margin-right: 14px;
+    float:left;
+}
+#page #content #right #boxright .boxrighttext{
+    width:160px;
+    height:56px;
+    padding-top: 0px;
+    box-sizing:border-box;
+    font-size:15px;
+    float:left;
+    margin-bottom: 20px;
+}	
+#page #content #right #boxright .boxrighttext a	{
+    color:#999;
+    text-decoration:none;
+}
+#page #content #right #boxright .boxrighttext a:hover{
+    color:#000;
+
+}
+/*--------------------------------------------------------*/	
+/*---------------CONTENT-TOUR TRONG NƯỚC------------------*/	
+
+#page #content #leftnuoc{
+    width:880px;
+    min-height:1000px;
+    float:left;
+}	
+/*Tao phan trang*/
+#page #content #leftnuoc .phantrang a{
+    
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    color: #000;
+}
+#page #content #leftnuoc .phantrang a:hover{
+    background-color: #305cb7;
+    color: #FFF;
+}
+#page #content #leftnuoc .phantrangdk a:hover{
+    color: red;
+}
+#page #content #leftnuoc #boxvien1{
+    width:100%;
+    height: 50px;
+    line-height:50px;
+    border-top:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+    margin-top:20px;
+
+    color:#305cb7;
+    text-transform:uppercase;
+    font-weight:600;
+}
+#page #content #leftnuoc .boxleftnuoc{
+    width:260px;
+    height:298px;
+    border:1px solid #CCCCC;
+    border-radius:3px;
+    margin: 15px 15px 40px 18px;
+    box-shadow:0px 0px 6px #666666;
+    float:left;
+    position:relative;
+}	
+#page #content #leftnuoc .boxleftnuoc .boxleftnuocimg{
+    width: 260px;
+    height: 198px;
+
+    position:relative;
+}	
+#page #content #leftnuoc .boxleftnuoc .boxleftnuocimg a:hover{
+    width: 260px;
+    height: 198px;
+    background-color: rgba(0,0,0,0.1);
+    display: block;
+}	
+#page #content #leftnuoc .boxleftnuoc .boxleftnuocimg .boxleftnuoctext{
+    padding-left:14px;
+    padding-right:14px;
+    height:30px;
+    background-color: rgba(255,255,255,0.8);
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    text-align:center;
+    line-height:30px;
+}	
+#page #content #leftnuoc .boxleftnuoc .boxleftnuoc2{
+    width: 260px;
+    height:100px;
+    padding: 8px;
+    box-sizing:border-box; 
+    font-size:14px;
+}	
+#page #content #leftnuoc .boxleftnuoc .boxleftnuoc3{
+    width:250px;
+    height: 50px;
+    line-height:20px;
+}	
+/*----------------------------------------------------*/
+/*-------------RIGHT-CONTENT TOUR TRONG NƯỚC-------------------*/	
+#page #content #right #boxright #boxrighttt1{
+    width:270px;
+    height:280px;
+
+    border-bottom:1px solid #F00;
+    position:relative;
+}	
+#page #content #right #boxright #boxrighttt2{
+    width:270px;
+    height:184px;
+    border:1px solid #dbdbdb;
+    margin-top: 30px;
+    position:relative;
+}
+#page #content #right #boxright #boxrighttt3{	
+    width:270px; 
+    height:203px; 
+    position:relative;
+    margin-top:30px;
+
+}
+#page #content #right #boxright #boxrighttt3 a:hover{
+    background-color:#000;
+}
+#page #content #right #boxright #boxrighttt4{
+    width:270px;
+    height:270px;
+    margin-top:24px;
+    border:1px solid #CCC;
+    box-shadow: 0px 0px 0px 1px #CCCCCC ;
+    position:relative;
+}	
+/*-----------------------------------------*/	
+/*-----------LEFT-CONTENT Tour Quoc Te ---------------- */
+#page #content #leftqt{
+    width:880px;
+    min-height:1000px;
+    float:left;
+}	
+
+#page #content #leftqt #boxvien1{
+    width:100%;
+    height: 50px;
+    line-height:50px;
+    border-top:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+    margin-top:20px;
+
+    color:#305cb7;
+    text-transform:uppercase;
+    font-weight:600;
+}
+#page #content #leftqt .boxleftqt{
+    width:260px;
+    height:298px;
+    border:1px solid #CCCCC;
+    border-radius:3px;
+    margin: 15px 15px 40px 18px;
+    box-shadow:0px 0px 6px #666666;
+    float:left;
+    position:relative;
+}	
+#page #content #leftqt .boxleftqt .boxleftqtimg{
+    width: 260px;
+    height: 198px;
+
+    position:relative;
+}	
+#page #content #leftqt .boxleftqt .boxleftqtimg a:hover{
+    background-color:#000;
+}	
+#page #content #leftqt .boxleftqt .boxleftqtimg .boxleftqttext{
+    padding-left:14px;
+    padding-right:14px;
+    height:30px;
+    background-color: rgba(255,255,255,0.8);
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    text-align:center;
+    line-height:30px;
+}	
+#page #content #leftqt .boxleftqt .boxleftqt2{
+    width: 260px;
+    height:100px;
+    padding: 8px;
+    box-sizing:border-box; 
+    font-size:14px;
+}	
+#page #content #leftqt .boxleftqt .boxleftqt3{
+    width: 250px;
+    height: 50px; 
+    line-height: 20px;
+}	
+/*----------------------------------------------------------*/
+/*------------------LEFT-CONTENT-CHI TIẾT-------------------*/
+#page #content #leftct{
+    width:880px;
+    min-height:1000px;
+    float:left;
+}	
+	
+/*-----------------------------------------------------*/
+/*---------------RIGHT-CONTENT-CHITIET-----------------*/
+#page #content #right{
+    width:320px;
+    min-height:800px;
+    float:left;
+}
+
+/*--------------LEFT-CONTENT LIEN HỆ-------------------*/
+#page #content #left-lienhe{
+    width:400px;
+    min-height:500px;
+    float:left;
+}
+
+
+/*-----------------------------------------------------*/	
+/*-----------------RIGTH-CONTENT LIÊN HỆ---------------*/
+#page #content #right-lienhe{
+    width:800px;
+    min-height:500px;
+    padding-left:20px;
+    box-sizing:border-box;
+    float:right;
+}
+#page #content #right-lienhe .box-lienhe{
+    width:800px;
+    min-height:400px;
+
+}	
+#page #content #right-lienhe .box-lienhe .ip{
+    margin-top:10px; 
+    width:700px; 
+    height:40px; 
+    border:1px solid #CCC; 
+    border-radius:4px;
+    margin-bottom:10px;
+    background-color:#f7f7f7;
+    padding-left:16px;
+    box-sizing:border-box;
+}	
+#page #content #right-lienhe .box-lienhe .ip:active{
+    background-color:#FFF;
+}	
+#page #content #right-lienhe .box-lienhe .button{
+    width:90px; 
+    height:42px; 
+    text-align:center; 
+    background-color:#305cb7;
+    border-radius:4px;
+    font-size:16px;
+    color:#FFF;
+    margin-right:14px;
+    float:left;
+}		
+#page #content #right-lienhe .box-lienhe .button:hover{
+    background-color:#F00;
+}	
+/*----------------------------------------------------*/	
+/*-----------------FOOTER----------------*/	
+#page #footer{
+    width: 100%;
+    height: 400px;
+    background-color:rgba(43,42,50,1);
+
+    position:relative;
+}
+#page #footer #footerpage{
+    width:1200px;
+    height: 400px;
+    margin:0 auto;
+}	
+#page #footer #footerpage #footer-top{
+    width:1200px;
+    height:50px;
+    padding-left: 35px;
+    border-bottom:1px solid #999;
+    position:relative;
+    box-sizing:border-box;
+
+}	
+#page #footer #footerpage #footer-top .footer-top-menu{
+    height:46px;	
+
+    padding-left:25px;
+    padding-right:25px;
+    float:left;
+    font-size:18px;
+    line-height:50px;
+    margin-top:4px;
+    border:0px solid #305cb7;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    -webkit-border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topleft:6px;
+    -moz-border-radius-topright:6px;
+    text-transform:uppercase;
+}
+
+#page #footer #footerpage #footer-top a{		
+    text-decoration:none;
+    color:#FFF;
+
+}
+
+#page #footer #footerpage #footer-top .footer-top-menu:hover{
+    background-color:#fff301;
+    color:#000;
+}
+
+/*-----------FOOTER-LEFT--------------*/	
+#page #footer #footerpage .leftfooter{
+    width: 240px;
+    height:260px;
+
+    margin-top:30px;
+    margin-right:60px;
+    padding: 6px;
+    position:relative;
+    float:left;
+    box-sizing:border-box;
+
+}
+#page #footer #footerpage .leftfooter .margin{
+    padding: 0px;
+    margin: 0px;
+
+}	
+
+#page #footer #footerpage .leftfooter .bullet-icon{
+    font-size:1em;
+    color:#999;
+    line-height:30px;
+    list-style:inside;
+    list-style-image:url(../Images/1475698323_bullet_white.png);
+
+}	
+
+#page #footer #footerpage .leftfooter .type{
+    text-decoration:none;
+    color: #999;
+}
+#page #footer #footerpage .leftfooter .type:hover{
+    color:#FFF;
+}	
+/*-------------------------------------------*/	
+#page #footer #footerpage #lienhe{
+    margin-top:30px;
+    width:300px;
+    height:220px;
+
+    float:right;
+    padding: 6px;
+    box-sizing:border-box;
+}
+#page #footer #footerpage #lienhe .icon{
+
+    width: 32px;
+    height:32px;
+    float:left;
+    margin-right:14px;
+    margin-bottom: 24px;
+}	
+#page #footer #footerpage #lienhe .boxchild{
+
+    font-size:14px;
+    color:#CCC;
+    height:32px;
+    width:260px;
+    margin-top:0px;
+    line-height:32px;
+}	
+#page #footer #footerpage #lienhe .span1{
+    width:260px;
+    height:32px;
+    line-height:20px;
+    color:#CCC;
+    margin-top:14px;
+    font-size:14px;
+    box-sizing:border-box;
+}	
+#page #footer #footerpage #bottom{
+    width:1200px;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    color:#CCC;
+    position:relative;
+    bottom:0px;
+}		
+/*-------------------------------*/	
